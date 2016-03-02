@@ -18,9 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     // Transparent Tab Bar
-    [[UITabBar appearance] setBarTintColor:[UIColor clearColor]];
     [[UITabBar appearance] setBackgroundImage:[UIImage new]];
-    
+    [[UITabBar appearance] setBarTintColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:1]];
     return YES;
 }
 
