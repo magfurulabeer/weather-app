@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rain" translatesAutoresizingMaskIntoConstraints="NO" id="1iz-Hp-Tqr">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="New York" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1mC-Lk-VGG">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="New York" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1mC-Lk-VGG">
                                 <rect key="frame" x="20" y="40" width="560" height="42"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="45"/>
@@ -96,7 +96,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="backgrounndImageView" destination="1iz-Hp-Tqr" id="X7t-SF-YdX"/>
+                        <outlet property="backgroundImageView" destination="1iz-Hp-Tqr" id="ngu-WK-Cs3"/>
                         <outlet property="descriptionLabel" destination="zhR-hU-y5m" id="YKm-FC-tre"/>
                         <outlet property="hiTempLabel" destination="Shf-7P-HEB" id="m4B-2m-OTC"/>
                         <outlet property="iconImageView" destination="xrb-2j-8kn" id="X4a-HT-8Op"/>

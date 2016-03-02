@@ -298,6 +298,7 @@
 				8BECEAA21C86A8CD00025A44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
